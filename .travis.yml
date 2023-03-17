@@ -3,7 +3,7 @@ mono: none
 dotnet: 7.0.100-preview.2
 
 before_script:
-  - cd ~/TestDealHub
+  - cd ~/CICD_Test
 
 script:
   - dotnet restore
